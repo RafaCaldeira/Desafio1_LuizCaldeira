@@ -1,0 +1,204 @@
+.sect{
+    box-sizing: border-box;
+    font-family: 'SF pro Display';
+    height: 2000px;
+    background-color:#232340;
+}
+.work{ 
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+}
+.tipo{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+/*Aqui agora*/
+#logo2{
+    width: 24px;
+    height: 24px;
+    border: 10px;
+}
+
+.one{
+    width: 24px;
+    height: 24px;
+    padding-left: 60px;
+    color:#8B8B8B;
+}
+
+.who{
+    width: 320px;
+    height: 24px;
+    font-style: normal;
+    color:#FFFFFF;
+}
+.headline{
+    width: 668px;
+    height: 144px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction:inherit ;
+    font-size:2.2rem;
+    font-weight: bold;
+    text-align: center;    
+    padding-bottom: 40px;
+    letter-spacing:2px;
+    color: #FFFFFF;
+}
+
+#work-itens{
+    display: flex;
+    flex-direction:row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+.work-itens:hover{
+    background: #5468E7;
+}
+#work-item{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    padding:40px;
+    left: calc(50% - 1px/2 + 10.5px);
+    border: 2px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+/*Parte do meio*/
+.class-container{
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+.class-container ul{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    line-height: 100px;
+    color:#8B8B8B;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-left:100px;
+    
+}
+.class-container li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.central{
+    width: 1200px;
+    height: 590px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.parb{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    padding:100px;
+    padding-left:400px;
+    padding-top:100;
+}
+.textos_pag2{
+    width: 320px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom:15px;
+    color:#8B8B8B;
+}
+.texto_pag2{
+    width: 320px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    color: #FFFFFF;    
+}
+#text2_pag2{
+    width: 320px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 50px;
+    color: #606060;
+}
+
+#contatenos1{
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #5468E7;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.bigest{
+    height: 239px;
+    left: 0%;
+    right: 0%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 239px; 
+    text-align: center;
+    color: #FFFFFF;
+}
+.num{
+    height: 239px;
+    left: 0%;
+    right: 0%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 200px;
+    line-height: 239px;
+    text-align: center;
+    padding-left: 150px;
+}
+.bb{
+    height: 32px;
+    left: 15.1%;
+    right: 15.1%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    padding-left: 150px;
+}

@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SF pro Display';
+}
+
+header{
+    height: 110px;
+}
+
+.nav{
+    display: flex;
+    justify-content:  space-between;
+    padding: 20px 40px;
+}
+
+.menu-hamburguer{
+    display: none;
+}
+
+.menu-item ul{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    padding-top: 25px;
+}
+
+.menu-item li{
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.menu-item li a{
+    color:#ADADAD;
+}
+.menu-item li a:hover{
+    color:#5468E7;
+}
+#contatenos{
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #232340;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+    text-align: center;
+    /* color white */
+    color: #FFFFFF;
+}
+

@@ -1,0 +1,64 @@
+.page6{
+    box-sizing: border-box;
+    font-family: 'SF pro Display';
+    height: 1200px;
+}
+
+.credit{
+    width: 1500px;
+    height: 900px;
+}
+
+.expo{
+    width: 1440px;
+    height: 700px;
+    padding-left: 610px;
+    left: -1px;
+}
+.logo_centralizado{
+    width: 191px;
+    height: 48px;
+    left: 624px;
+    padding: 5px;
+}
+.texto_final{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #606060;
+}
+
+.menu-final ul{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    padding-top: 25px;
+}
+
+.menu-final{
+    align-items: center;
+}
+
+.menu-final li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.menu-final li a{
+    color:#ADADAD;
+}
+.menu-final li a:hover{
+    color:#5468E7;
+}
+
+.footer{
+    width: 1450px;
+}

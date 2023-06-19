@@ -1,0 +1,102 @@
+.sect3{
+    box-sizing: border-box;
+    font-family: 'SF pro Display';
+    height: 1500px;
+}
+.work3{ 
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.titulo3{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+}
+.tipo{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+}
+/*Aqui agora*/
+#logo2{
+    width: 24px;
+    height: 24px;
+    border: 10px;
+}
+
+.one{
+    width: 24px;
+    height: 24px;
+    padding-left: 60px;
+    color:#8B8B8B;
+}
+
+.who{
+    width: 320px;
+    height: 24px;
+    font-style: normal;
+    color:#FFFFFF;
+}
+.headline3{
+    width: 668px;
+    height: 144px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction:inherit ;
+    font-size:2.2rem;
+    font-weight: bold;
+    text-align: center;    
+    padding-bottom: 40px;
+    letter-spacing:2px;
+    color: #232340;
+}
+
+#work-itens{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+.work-itens:hover{
+    background: #5468E7;
+}
+#work-item{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    padding:40px;
+    left: calc(50% - 1px/2 + 10.5px);
+    transform: rotate(90deg);
+}
+
+/*Página*/
+.select{
+    width: 1170px;
+    height: 584px;
+    padding-left: 150px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction:row;
+}
+
+.im1{
+    width: 293px;
+    height: 480px;
+    padding: 140px 82px;
+    border-radius: 12px;
+}
+
+.im1:hover{
+    background-color: #5468E7;
+    width: 293px;
+    height: 560px;
+}
